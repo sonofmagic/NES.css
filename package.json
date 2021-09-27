@@ -1,6 +1,7 @@
 {
-  "name": "nes.css",
-  "description": "NES.css is NES-style CSS Framework.",
+  "name": "@16bits/nes.css",
+  "version": "2.3.1",
+  "description": "since NES.css hasn't be published for a long time. this pkg is published with using the latest develop branch to solve some issues",
   "scripts": {
     "watch": "npm run build:sass -- --watch",
     "// Build task": "",
@@ -88,29 +89,6 @@
   "browserslist": [
     "> 1%"
   ],
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "subject-case": [
-        0,
-        "never",
-        "sentence-case"
-      ],
-      "subject-full-stop": [
-        0,
-        "never",
-        "."
-      ]
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "scss/**/*.scss": [
       "npm run prebuild:stylelint",

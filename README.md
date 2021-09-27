@@ -1,3 +1,6 @@
+
+> since NES.css hasn't be published for a long time. this pkg is published with using the latest develop branch to solve some issues
+
 <div align="center">
   <a href="https://nostalgic-css.github.io/NES.css/" target="_blank"><img src="https://user-images.githubusercontent.com/5305599/49061716-da649680-f254-11e8-9a89-d95a7407ec6a.png" alt="NES.css: NES-style  CSS framework" style="max-width: 100%;" width="600" height="315"></a>
 
